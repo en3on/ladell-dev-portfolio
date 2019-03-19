@@ -1,3 +1,5 @@
+@import 'animation.css';
+
 .navbar-container {
   position: fixed;
   z-index: 1;
@@ -48,12 +50,36 @@
   color: var(--pink);
 }
 
+.navigation-links {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .navigation a {
+  height: 100%;
+  width: 100%;
   text-decoration: none;
   color: var(--pink);
   font-family: var(--autour);
 }
 
+.link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 10px;
+}
+
+.link:hover {
+  background: var(--salmon);
+  animation: link-hover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
 
 
 .nav-social-logos {
@@ -68,4 +94,12 @@
 .nav-social-logos a {
   text-decoration: none;
   color: var(--pink);
+}
+
+.nav-social-logos a:hover {
+  color: var(--salmon);
+  animation: social-hover;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
 }

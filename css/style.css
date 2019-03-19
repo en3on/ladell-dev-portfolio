@@ -15,7 +15,7 @@
  /* colors */ 
   --pink: #FFE3F1;
   --teal: #00C9C8;
-  --salmon: #CD5334;
+  --salmon: #FFA28A;
   --granite: #303030;
 }
 
@@ -24,7 +24,8 @@
 }
 
 .break-background {
-  background: red;
+  background-image: linear-gradient(white 0%, #96ed93 33%, #c6f47f 50%, #96ed93 83%, white);
   height: 100%;
   width: 100%;
 }
+

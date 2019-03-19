@@ -1,0 +1,9 @@
+@keyframes link-hover {
+  from {background-color: var(--granite)};
+  to {background-color: var(--salmon)};
+}
+
+@keyframes social-hover {
+  from {color: var(--pink)};
+  to {color: var(--salmon)};
+}

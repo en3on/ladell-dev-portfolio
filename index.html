@@ -18,7 +18,13 @@
           </div>
         </div>
         <div class="navigation">
-          <h2 class="navigation-links"><a class="about" href="#">About</a> | <a class="portfolio" href="#">Portfolio</a> | <a class="skills" href="#">Skills</a> | <a class="Blog" href="#">Blog</a> | <a class="contact" href="#">Contact</a></h2>
+          <h2 class="navigation-links">
+            <a class="about" href="#"><div class="link">About</div></a> | 
+            <a class="portfolio" href="#"><div class="link">Portfolio</div></a> | 
+            <a class="skills" href="#"><div class="link">Skills</div></a> | 
+            <a class="blog" href="#"><div class="link">Blog</div></a> | 
+            <a class="contact" href="#"><div class="link">Contact</div></a>
+          </h2>
         </div>
         <div class="nav-social-logos">
           <a href="https://twitter.com/tictwitchteen"><i class="devicon-twitter-plain"></i></a>
@@ -110,24 +116,41 @@
       </div>
     </div>
     <div class="contact-me-page">
-      <div class="email-container">
-         <form action="#">
-           <div class="email-name">
-             <h2 id="email-name-label">Name</h2>
-             <input id="email-name-input" type="text" name="name">
-           </div>
-           <div class="email-address">
-             <h2 id="email-address-label">Email</h2>
-             <input id="email-address-input" type="email" name="email">
-           </div>
-           <div class="email-message">
-             <h2 id="email-message-label">Message</h2>
-             <input id="email-message-input" type="text" name="message">
-           </div>
-           <div class="send">
-             <input id="send-button" type="submit" value="send">
-           </div>
-         </form>
+      <div class="social-sidebar">
+        <a href="https://twitter.com/tictwitchteen"><i id="twitter-sidebar-icon" class="devicon-twitter-plain"></i></a>
+        <a href="https://github.com/en3on"><i id="github-sidebar-icon" class="devicon-github-plain"></i></a>
+        <a href="https://linkedin.com/in/adam-ladell"><i id="linkedin-sidebar-icon" class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="contact-banner">
+        <div id="cb-granite-1"></div>
+        <div id="cb-granite-2"><h1 class="contact-title">Contact Me</h1></div>
+        <div id="cb-pink-banner"></div>
+        <div id="cb-blue-1"></div>
+        <div id="cb-blue-2"></div>
+        <div id="cb-blue-3"></div>
+        <div id="cb-blue-bottom-1"></div>
+        <div id="cb-blue-bottom-2"></div>
+        <div id="cb-content">
+          <form action="#">
+            <div class="email-container">
+              <div class="email-name input-div">
+                <h2 id="email-name-label">Name</h2>
+                <input id="email-name-input" type="text" name="name">
+              </div>
+              <div class="email-address input-div">
+                <h2 id="email-address-label">Email</h2>
+                <input id="email-address-input" type="email" name="email">
+              </div>
+              <div class="email-message input-div">
+                <h2 id="email-message-label">Message</h2>
+                <textarea id="email-message-input" name="email-message" cols="30" rows="10"></textarea>
+              </div>
+              <div class="send">
+                <input id="send-button" type="submit" value="send">
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>

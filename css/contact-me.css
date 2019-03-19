@@ -1,6 +1,38 @@
+.social-sidebar {
+  width: 10%;
+  height: 100vh;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-sidebar i {
+  font-size: 81px;
+}
+
+.social-sidebar a {
+  text-decoration: none;
+}
+
+#twitter-sidebar-icon {
+  color: var(--teal);
+  font-size: 67px;
+}
+
+#github-sidebar-icon {
+  color: black;
+}
+
+#linkedin-sidebar-icon {
+  color: var(--teal);
+}
+
+
 .contact-me-page {
-  width: vw;
-  height: 900px;
+  width: 100%;
+  height: 100%;
 }
 
 #send-button {
@@ -13,8 +45,64 @@
 }
 
 #send-button:hover {
-  background: var(--salmon);
+  background: #FFA28A;
   padding-top: 2px;
   padding-left: 15px;
   box-shadow: inset 5px 0px 5px black;
+}
+
+#cb-content {
+  grid-row: 5;
+  grid-column: 1 / 4;
+  background: var(--teal);
+  -webkit-border-radius: 0 0 30px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#cb-content form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.email-container {
+  background: var(--pink);
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-border-radius: 20px;
+}
+
+.email-container h2 {
+  font-family: var(--rokkitt);
+  text-align: center;
+}
+
+.email-container input {
+  width: 100%;
+  font-family: var(--rokkitt);
+}
+
+.input-div {
+  width: 80%;
+}
+
+.email-message {
+  height: 150px;
+}
+
+#email-message-input {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  width: 100%;
+  resize: none;
+  font-family: var(--rokkitt);
 }

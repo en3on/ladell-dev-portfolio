@@ -1,5 +1,5 @@
 .about-me-page {
-  background: var(--teal);
+  background-image: linear-gradient(to bottom, var(--teal), white);
   display: grid;
   grid-template-rows: 0.33fr 372px 0.24fr;
   grid-template-columns: 0.325fr 0.383fr 0.292fr;
@@ -96,6 +96,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--pink);
+  padding-top: 50px;
+  color: var(--teal);
   font-family: var(--autour);
 }
