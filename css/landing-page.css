@@ -1,0 +1,23 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../images/background.jpg');
+  background-size: cover;
+}
+
+.title-container {
+  position: relative;
+  top: 70px;
+  height: calc(100vh - 70px);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--autour);
+  color: var(--teal);
+  font-size: 100px;
+}

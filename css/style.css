@@ -1,0 +1,20 @@
+@import 'navbar.css';
+@import 'landing-page.css';
+@import 'about-me-page.css';
+
+:root {
+  /* fonts */
+  --autour : 'Autour One', cursive;
+  --chivo : 'Chivo', sans-serif;
+  --rokkitt : 'Rokkitt', serif;
+
+ /* colors */ 
+  --pink: #FFE3F1;
+  --teal: #00C9C8;
+  --salmon: #CD5334;
+  --granite: #303030;
+}
+
+* {
+  margin: 0;
+}
