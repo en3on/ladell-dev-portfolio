@@ -1,0 +1,25 @@
+.projects-page {
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-content {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-tile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-tile {
+  background: var(--granite);
+  width: 150px;
+  height: 150px;
+}

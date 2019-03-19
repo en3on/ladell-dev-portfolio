@@ -1,0 +1,72 @@
+.banner-page-container {
+  width: 87vw;
+  display: grid;
+  height: 80%;
+  grid-template-rows: 0.013fr 0.022fr 0.2fr 0.023fr 0.74fr;
+  grid-template-columns: 0.008fr 0.03fr 0.019fr 0.11fr 0.8fr 0.019fr;
+}
+
+
+.granite-1 {
+  height: 100%;
+  width: 100%;
+  grid-row: 3;
+  grid-column: 1;
+  background: var(--granite);
+}
+
+.granite-2 {
+  width: 100%;
+  height: 100%;
+  grid-row: 3;
+  grid-column: 3;
+  background: var(--granite);
+}
+
+.granite-3 {
+  grid-row: 3;
+  grid-column: 4;
+  background: var(--granite);
+}
+
+.banner-title-container {
+  grid-row: 3;
+  grid-column: 5;
+  background: var(--granite);
+  color: var(--teal);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: var(--autour);
+  font-size: 40px;
+}
+
+.granite-4 {
+  grid-row: 3;
+  grid-column: 6;
+  background: var(--granite);
+}
+
+.pink-banner {
+  grid-row: 2 / 5;
+  grid-column: 2;
+  background: var(--pink);
+}
+
+.top-blue {
+  grid-row: 1 / 3;
+  grid-column: 4 / 6;
+  background: var(--teal);
+}
+
+.bottom-blue {
+  grid-row: 4;
+  grid-column: 4 / 6;
+  background: var(--teal);
+}
+
+.content {
+  grid-row: 5;
+  grid-column: 4 / 6;
+  background: var(--teal);
+}

@@ -1,6 +1,10 @@
 @import 'navbar.css';
-@import 'landing-page.css';
-@import 'about-me-page.css';
+@import 'landing.css';
+@import 'about-me.css';
+@import 'skills.css';
+@import 'banner.css';
+@import 'projects.css';
+@import 'contact-me.css';
 
 :root {
   /* fonts */
@@ -17,4 +21,9 @@
 
 * {
   margin: 0;
+}
+
+.break-background {
+  background: red;
+  height: 100%;
 }

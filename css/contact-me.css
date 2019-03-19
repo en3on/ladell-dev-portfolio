@@ -1,0 +1,20 @@
+.contact-me-page {
+  width: vw;
+  height: 900px;
+}
+
+#send-button {
+  width: 100px;
+  height: 30px;
+  background: var(--teal);
+  border: 3px solid var(--granite);
+  -webkit-border-radius: 10px;
+  color: var(--granite);
+}
+
+#send-button:hover {
+  background: var(--salmon);
+  padding-top: 2px;
+  padding-left: 15px;
+  box-shadow: inset 5px 0px 5px black;
+}

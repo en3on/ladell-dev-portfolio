@@ -1,0 +1,61 @@
+.skills-page {
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-content img {
+  width: 10vw;
+  height: 10vw;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ruby-logo {
+  grid-row: 1;
+  grid-column: 1 / 4;
+}
+
+#html5-logo {
+  grid-row: 1;
+  grid-column: 4 / 7;
+}
+
+#javascript-logo {
+  grid-row: 1;
+  grid-column: 7 / 10;
+}
+
+#git-logo {
+  grid-row: 1;
+  grid-column: 10 / 13;
+}
+
+#vim-logo {
+  grid-row: 2;
+  grid-column: 1 / 5;
+}
+
+#css3-logo {
+  grid-row: 2;
+  grid-column: 5 / 9;
+}
+
+#python-logo {
+  grid-row: 2;
+  grid-column: 9 / 13;
+}
+
