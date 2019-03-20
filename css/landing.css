@@ -20,3 +20,15 @@
   color: var(--teal);
   font-size: 100px;
 }
+
+
+
+/* mobile specific */
+
+
+@media only screen and (max-width: 414px) {
+  .title {
+    font-size: 60px;
+    text-align: center;
+  }
+}

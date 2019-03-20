@@ -7,3 +7,18 @@
   from {color: var(--pink)};
   to {color: var(--salmon)};
 }
+
+@keyframes sidebar-twitter-hover {
+  from {color: var(--teal)};
+  to {color: var(--salmon)};
+}
+
+@keyframes sidebar-github-hover {
+  from {color: black;};
+  to {color: var(--salmon)};
+}
+
+@keyframes sidebar-linkedin-hover {
+  from {color: var(--teal)};
+  to {color: var(--salmon)};
+}
