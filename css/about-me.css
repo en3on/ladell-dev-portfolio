@@ -100,3 +100,50 @@
   color: var(--teal);
   font-family: var(--autour);
 }
+
+
+
+
+/* mobile specifics */
+
+
+.about-me-page-mobile {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, var(--teal), white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mobile .self-portrait-container {
+  height: 25vh;
+}
+
+.about-me-content-mobile {
+  background: var(--pink);
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -webkit-border-radius: 20px;
+}
+
+.about-me-content-mobile p {
+  padding:10px 20px;
+  font-family: var(--chivo);
+  font-size: 18px;
+}
+
+.self-portrait-mobile {
+  height: 20vh;
+  width: 20vh;
+  margin-top: 20px;
+}
+
+.fun-facts-mobile {
+  font-size: 14px;
+  padding-top: 0;
+}

@@ -147,3 +147,19 @@
   background: var(--teal);
 }
 
+
+/* mobile specifics */
+
+/*
+.banner-page-container-mobile {
+  width: 87vw;
+  display: grid;
+  height: 80%;
+  grid-template-rows: 5px 10px 107px 10px 428px;
+  grid-template-columns: 0.035fr 0.05fr 0.27fr  0.065fr;
+}
+
+.banner-title-container {
+  font-size: 20px;
+}
+*/
