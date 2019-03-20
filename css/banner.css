@@ -1,7 +1,7 @@
 .banner-page-container {
   width: 87vw;
   display: grid;
-  height: 80%;
+  height: 80vh;
   grid-template-rows: 0.013fr 0.022fr 0.2fr 0.023fr 0.74fr;
   grid-template-columns: 0.008fr 0.03fr 0.019fr 0.11fr 0.8fr 0.019fr;
 }
