@@ -125,7 +125,7 @@
   background: var(--pink);
   width: 90%;
   height: 60%;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   -webkit-border-radius: 20px;
@@ -147,3 +147,8 @@
   font-size: 14px;
   padding-top: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-me-page-mobile {
+    display: flex;
+  }
