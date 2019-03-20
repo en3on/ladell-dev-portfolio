@@ -1,7 +1,7 @@
 .about-me-page {
   background-image: linear-gradient(to bottom, var(--teal), white);
   display: grid;
-  grid-template-rows: 0.33fr 372px 0.24fr;
+  grid-template-rows: 0.3fr 0.5fr 0.2fr;
   grid-template-columns: 0.325fr 0.383fr 0.292fr;
 }
 
