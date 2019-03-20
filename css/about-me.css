@@ -123,8 +123,8 @@
 
 .about-me-content-mobile {
   background: var(--pink);
-  width: 90%;
-  height: 60%;
+  width: 90vw;
+  height: 80vw;
   display: none;
   flex-direction: column;
   justify-content: space-around;
@@ -134,7 +134,7 @@
 .about-me-content-mobile p {
   padding:10px 20px;
   font-family: var(--chivo);
-  font-size: 18px;
+  font-size: 3.2vw;
 }
 
 .self-portrait-mobile {
