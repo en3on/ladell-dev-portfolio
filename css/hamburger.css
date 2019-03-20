@@ -19,8 +19,8 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 8vh;
-  height: 8vh;
+  width: 10vh;
+  height: 10vh;
   background: var(--granite);
   border: 4px solid var(--salmon);
   border-radius: 50%;
@@ -31,8 +31,8 @@
 }
 
 .hamburger-line-container {
-  width: 10vh;
-  height: 18vh;
+  width: 8vh;
+  height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
