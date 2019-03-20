@@ -38,7 +38,7 @@
 }
 */
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-device-width: 768px) {
   .desktop {
     display: none;
   }
