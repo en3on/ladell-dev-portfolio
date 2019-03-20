@@ -7,7 +7,7 @@
 
 .navbar {
   width: 100vw;
-  height: 25vh;
+  height: 15vh;
   background: var(--granite);
   display: grid;
   grid-template-rows: 1fr;
@@ -25,8 +25,8 @@
 
 .logo-outline {
   background: var(--pink);
-  width: 30vw;
-  height: 30vw;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -34,8 +34,8 @@
 }
 
 .logo {
-  width: 28vw;
-  height: 28vw;
+  width: 18vw;
+  height: 18vw;
   background-image: url('../images/logo.png');
   background-size: cover;
   border-radius: 50%;
