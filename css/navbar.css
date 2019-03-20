@@ -7,7 +7,7 @@
 
 .navbar {
   width: 100vw;
-  height: 15vh;
+  height: 70px;
   background: var(--granite);
   display: grid;
   grid-template-rows: 1fr;
@@ -25,8 +25,8 @@
 
 .logo-outline {
   background: var(--pink);
-  width: 20vw;
-  height: 20vw;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -34,8 +34,8 @@
 }
 
 .logo {
-  width: 18vw;
-  height: 18vw;
+  width: 60px;
+  height: 60px;
   background-image: url('../images/logo.png');
   background-size: cover;
   border-radius: 50%;
@@ -129,7 +129,7 @@
 }
 */
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
   .navbar-container {
     position: absolute;
     z-index: 0;
