@@ -106,29 +106,6 @@
 }
 
 
-/* mobile specific */
-
-/*
-@media only screen and (max-width: 600px) {
-  .navbar-container {
-    position: absolute;
-    z-index: 0;
-  }
-
-  .logo-container {
-    grid-column: 2;
-  }
-
-  .navigation {
-    display: none;
-  }
-
-  .nav-social-logos {
-    display: none;
-  }
-}
-*/
-
 @media only screen and (max-width: 768px) {
   .navbar-container {
     position: absolute;
