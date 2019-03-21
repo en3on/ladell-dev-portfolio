@@ -1,54 +1,42 @@
 .projects-page {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height          : 100vh;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
 }
 
 .projects-content {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  display               : grid;
+  grid-template-rows    : repeat(2, 1fr);
+  grid-template-columns : repeat(3, 1fr);
 }
 
 .project-tile-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+  display         : flex;
+  justify-content : space-around;
+  align-items     : center;
+  flex-direction  : column;
 }
 
 .project-tile-container h3 {
-  color: var(--pink);
-  font-size: 2vw;
+  color     : var(--pink);
+  font-size : 2vw;
 }
 
 .project-tile {
-  background: var(--pink);
-  width: 150px;
-  height: 150px;
-}
-
-.project-tile:hover {
-  animation: project-hover 0.2s forwards;
-}
-
-
-#project-1 {
-  background-image: url('../images/mood-io.png');
-  background-size: 100% 100%;
-}
-
-#project-2 {
-  background-image: url('../images/rps.png');
+  background : var(--pink);
+  width      : 150px;
+  height     : 150px;
   background-size: contain;
 }
 
-#project-3 {
-  background-image: url('../images/jp.png');
-  background-size: contain;
-}
+.project-tile:hover { animation: project-hover 0.2s forwards; }
 
+#project-1 { background-image: url('../images/mood-io.png'); }
+
+#project-2 { background-image: url('../images/rps.png'); }
+
+#project-3 { background-image: url('../images/jp.png'); }
 
 
 /* mobile specifics */
@@ -56,25 +44,21 @@
 
 @media only screen and (max-width: 768px) {
   .projects-content {
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows    : repeat(3, 1fr);
+    grid-template-columns : repeat(2, 1fr);
   }
 
-  .projects-title {
-    font-size: 8vw;
-  }
+  .projects-title { font-size: 8vw; }
 
   .project-tile {
-    height: 20vw;
-    width: 20vw;
-    margin: 10px;
-    max-width: 100px;
-    min-width: 80px;
-    max-height: 100px;
-    min-height: 80px;
+    height     : 20vw;
+    width      : 20vw;
+    margin     : 10px;
+    max-width  : 100px;
+    min-width  : 80px;
+    max-height : 100px;
+    min-height : 80px;
   }
 
-  .project-tile-container h3 {
-    font-size: 3vw;
-  }
+  .project-tile-container h3 { font-size: 3vw; }
 }

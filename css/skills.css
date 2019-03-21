@@ -1,65 +1,63 @@
 .skills-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height          : 100vh;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  align-items     : center;
 }
 
 .skills-content img {
-  width: 10vw;
-  height: 10vw;
+  width  : 10vw;
+  height : 10vw;
 }
 
 .skills-content {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(12, 1fr);
+  display               : grid;
+  grid-template-rows    : repeat(2, 1fr);
+  grid-template-columns : repeat(12, 1fr);
 }
 
-.skills-content img:hover {
-  animation: skill-icon-hover 1s both infinite linear;
-}
+.skills-content img:hover { animation: skill-icon-hover 1s both infinite linear; }
 
 .skill-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
 }
 
 #ruby-logo {
-  grid-row: 1;
-  grid-column: 1 / 4;
+  grid-row    : 1;
+  grid-column : 1 / 4;
 }
 
 #html5-logo {
-  grid-row: 1;
-  grid-column: 4 / 7;
+  grid-row    : 1;
+  grid-column : 4 / 7;
 }
 
 #javascript-logo {
-  grid-row: 1;
-  grid-column: 7 / 10;
+  grid-row    : 1;
+  grid-column : 7 / 10;
 }
 
 #git-logo {
-  grid-row: 1;
-  grid-column: 10 / 13;
+  grid-row    : 1;
+  grid-column : 10 / 13;
 }
 
 #vim-logo {
-  grid-row: 2;
-  grid-column: 1 / 5;
+  grid-row    : 2;
+  grid-column : 1 / 5;
 }
 
 #css3-logo {
-  grid-row: 2;
-  grid-column: 5 / 9;
+  grid-row    : 2;
+  grid-column : 5 / 9;
 }
 
 #python-logo {
-  grid-row: 2;
-  grid-column: 9 / 13;
+  grid-row    : 2;
+  grid-column : 9 / 13;
 }
 
 
@@ -68,61 +66,59 @@
 
 @media only screen and (max-width: 768px) {
   .skills-content {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+    display               : grid;
+    grid-template-rows    : repeat(3, 1fr);
+    grid-template-columns : repeat(2, 1fr);
   }
 
   .skills-content img {
-    height: 25vw;
-    width: 25vw;
-    margin: 10px;
-    max-width: 120px;
-    max-height: 120px;
+    height     : 25vw;
+    width      : 25vw;
+    margin     : 10px;
+    max-width  : 120px;
+    max-height : 120px;
   }
 
   .skills-content div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
   }
 
   #ruby-logo {
-    grid-row: 1;
-    grid-column: 1;
+    grid-row    : 1;
+    grid-column : 1;
   }
 
   #vim-logo {
-    grid-row: 1;
-    grid-column: 2;
+    grid-row    : 1;
+    grid-column : 2;
   }
 
   #html5-logo {
-    grid-row: 2;
-    grid-column: 1;
+    grid-row    : 2;
+    grid-column : 1;
   }
 
   #css3-logo {
-    grid-row: 2;
-    grid-column: 2;
+    grid-row    : 2;
+    grid-column : 2;
   }
 
   #git-logo {
-    grid-row: 3;
-    grid-column: 1;
+    grid-row    : 3;
+    grid-column : 1;
   }
 
   #javascript-logo {
-    grid-row: 3;
-    grid-column: 2;
+    grid-row    : 3;
+    grid-column : 2;
   }
 
   #python-logo {
-    grid-row: 4;
-    grid-column: 1 / 3;
+    grid-row    : 4;
+    grid-column : 1 / 3;
   }
 
-  #python-logo img {
-    transform: scale(2);
-  }
+  #python-logo img { transform: scale(2); }
 }

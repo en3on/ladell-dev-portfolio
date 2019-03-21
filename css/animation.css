@@ -1,48 +1,38 @@
 @keyframes link-hover {
-  from {background-color: var(--granite)};
-  to {background-color: var(--salmon)};
+  from { background-color: var(--granite)};
+  to   { background-color: var(--salmon)};
 }
 
 @keyframes social-hover {
-  from {color: var(--pink)};
-  to {color: var(--salmon)};
+  from { color: var(--pink)};
+  to   { color: var(--salmon)};
 }
 
 @keyframes sidebar-twitter-hover {
-  from {color: var(--teal)};
-  to {color: var(--salmon)};
+  from { color: var(--teal)};
+  to   { color: var(--salmon)};
 }
 
 @keyframes sidebar-github-hover {
-  from {color: black;};
-  to {color: var(--salmon)};
+  from { color: black;};
+  to   { color: var(--salmon)};
 }
 
 @keyframes sidebar-linkedin-hover {
-  from {color: var(--teal)};
-  to {color: var(--salmon)};
+  from { color: var(--teal)};
+  to   { color: var(--salmon)};
 }
 
 @keyframes project-hover {
-  0% {
-    border-radius: 0;
-  }
-  100% {
-    border-radius: 25%;
-  }
+  0%   { border-radius: 0; }
+  100% { border-radius: 25%; }
 }
 
 
 @keyframes skill-icon-hover {
-  33% {
-    transform: rotate(10deg);
-  }
-  66% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+  33%  { transform: rotate(10deg); }
+  66%  { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
 }
 
 
@@ -55,7 +45,16 @@
     opacity: 1;
     color: var(--pink);
   }
-  100% {
-    color: var(--teal);
-  }
+  100% { color: var(--teal); }
+}
+
+
+@keyframes hamburger-pop-up {
+  0%   { transform: translateY(100%); }
+  100% { transform: translateY(0%); }
+}
+
+@keyframes hamburger-exit-pop-in {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(0); }
 }

@@ -8,18 +8,14 @@
   align-items: center;
 }
 
-.social-sidebar i {
-  font-size: 81px;
-}
+.social-sidebar i { font-size: 81px; }
 
 .social-sidebar a {
   text-decoration: none;
   cursor: pointer;
 }
 
-.social-sidebar a:hover {
-  transform: scale(1.1);
-}
+.social-sidebar a:hover { transform: scale(1.1); }
 
 #twitter-sidebar-icon {
   color: var(--teal);
@@ -33,9 +29,7 @@
   animation-fill: forwards;
 }
 
-#github-sidebar-icon {
-  color: black;
-}
+#github-sidebar-icon { color: black; }
 
 #github-sidebar-icon:hover {
   color: var(--salmon);
@@ -44,9 +38,7 @@
   animation-fill: forwards;
 }
 
-#linkedin-sidebar-icon {
-  color: var(--teal);
-}
+#linkedin-sidebar-icon { color: var(--teal); }
 
 #linkedin-sidebar-icon:hover {
   color: var(--salmon);
@@ -121,13 +113,9 @@
   font-family: var(--rokkitt);
 }
 
-.input-div {
-  width: 80%;
-}
+.input-div { width: 80%; }
 
-.email-message {
-  height: 150px;
-}
+.email-message { height: 150px; }
 
 #email-message-input {
   height: 100%;
@@ -142,9 +130,7 @@
 /* mobile specifics */
 
 @media only screen and (max-width: 768px) {
-  .contact-me-page {
-    flex-direction: column;
-  }
+  .contact-me-page { flex-direction: column; }
 
   .social-sidebar {
     float: none;
@@ -154,30 +140,18 @@
     flex-direction: row;
   }
 
-  .social-sidebar i {
-    font-size: 7vw;
-  }
+  .social-sidebar i, #twitter-sidebar-icon { font-size: 7vw; }
 
-  #twitter-sidebar-icon {
-    font-size: 7vw;
-  }
-
-  .contact-me-page {
-    background-image: linear-gradient(#fff 0%, var(--teal) 1%);
-  }
+  .contact-me-page { background-image: linear-gradient(#fff 0%, var(--teal) 1%); }
 
   .email-container {
     height: 100vw;
     width: 90%;
   }
 
-  .email-container input {
-    height: 2vw;
-  }
+  .email-container input { height: 2vw; }
 
-  .email-message {
-    height: 30%;
-  }
+  .email-message { height: 30%; }
 
   #send-button {
     height: 5vw;
