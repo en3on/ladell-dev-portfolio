@@ -19,6 +19,7 @@
   font-family: var(--autour);
   color: var(--teal);
   font-size: 100px;
+  animation: title-fade-in 3s forwards;
 }
 
 

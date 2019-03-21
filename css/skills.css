@@ -17,6 +17,10 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
+.skills-content img:hover {
+  animation: skill-icon-hover 1s both infinite linear;
+}
+
 .skill-container {
   display: flex;
   justify-content: center;

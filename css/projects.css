@@ -30,7 +30,7 @@
 }
 
 .project-tile:hover {
-  transform: scale(1.1);
+  animation: project-hover 0.2s forwards;
 }
 
 
