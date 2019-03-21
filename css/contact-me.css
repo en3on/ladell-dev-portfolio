@@ -59,6 +59,9 @@
 
 
 .contact-me-page {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
   width: 100%;
   height: 100%;
   background: white;
@@ -135,4 +138,47 @@
   width: 100%;
   resize: none;
   font-family: var(--rokkitt);
+}
+
+
+/* mobile specifics */
+
+@media only screen and (max-width: 768px) {
+  .social-sidebar {
+    float: none;
+    background: white;
+    width: 100vw;
+    height: 8vw;
+    flex-direction: row;
+  }
+
+  .social-sidebar i {
+    font-size: 7vw;
+  }
+
+  #twitter-sidebar-icon {
+    font-size: 7vw;
+  }
+
+  .contact-me-page {
+    background: var(--teal);
+  }
+
+  .email-container {
+    height: 100vw;
+    width: 90%;
+  }
+
+  .email-container input {
+    height: 2vw;
+  }
+
+  .email-message {
+    height: 30%;
+  }
+
+  #send-button {
+    height: 5vw;
+    width: 18vw;
+  }
 }

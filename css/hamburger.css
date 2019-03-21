@@ -2,8 +2,8 @@
 
 .hamburger-icon {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 40px;
   width: 10vh;
   height: 10vh;
   background: var(--granite);
@@ -17,8 +17,8 @@
 
 .hamburger-icon-exit {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 40px;
   width: 10vh;
   height: 10vh;
   background: var(--granite);

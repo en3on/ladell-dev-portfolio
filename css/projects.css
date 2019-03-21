@@ -9,7 +9,6 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  height: 90%;
 }
 
 .project-tile-container {
@@ -23,3 +22,25 @@
   width: 150px;
   height: 150px;
 }
+
+
+/* mobile specifics */
+
+
+@media only screen and (max-width: 768px) {
+  .projects-content {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-title {
+    font-size: 8vw;
+  }
+
+  .project-tile {
+    height: 20vw;
+    width: 20vw;
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+  }
