@@ -165,7 +165,7 @@
   }
 
   .contact-me-page {
-    background: var(--teal);
+    background-image: linear-gradient(#fff 0%, var(--teal) 1%);
   }
 
   .email-container {
