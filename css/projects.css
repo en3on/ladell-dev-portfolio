@@ -24,6 +24,23 @@
 }
 
 
+#project-1 {
+  background-image: url('../images/mood-io.png');
+  background-size: 100% 100%;
+}
+
+#project-2 {
+  background-image: url('../images/rps.png');
+  background-size: contain;
+}
+
+#project-3 {
+  background-image: url('../images/jp.png');
+  background-size: contain;
+}
+
+
+
 /* mobile specifics */
 
 
