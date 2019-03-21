@@ -127,7 +127,7 @@
 }
 
 
-/* mobile specifics */
+/* mobile */
 
 @media only screen and (max-width: 768px) {
   .contact-me-page { flex-direction: column; }
