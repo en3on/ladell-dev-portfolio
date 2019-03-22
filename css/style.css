@@ -24,7 +24,7 @@
 * { margin: 0; }
 
 .break-background {
-  background-image: linear-gradient(white 0%, #96ed93 33%, #c6f47f 50%, #96ed93 83%, white);
+  background-image: linear-gradient(#fff 0%, #96ed93 33%, #c6f47f 50%, #96ed93 83%, #fff);
   height: 100%;
   width: 100%;
 }
