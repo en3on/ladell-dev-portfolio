@@ -21,6 +21,7 @@
 .project-tile-container h3 {
   color     : var(--pink);
   font-size : 2vw;
+  font-family: var(--autour);
 }
 
 .project-tile {
