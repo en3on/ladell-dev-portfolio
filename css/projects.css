@@ -22,6 +22,7 @@
   color     : var(--pink);
   font-size : 2vw;
   font-family: var(--autour);
+  min-height: 25px;
 }
 
 .project-tile {
