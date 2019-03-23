@@ -65,16 +65,12 @@
 .about-me-content p {
   padding: 10px 20px;
   font-family: var(--chivo);
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 
 .content-1-container {
   grid-column: 1;
   justify-content: flex-end;
-}
-
-.content-1-container p {
-  font-size: 1.5vw;
 }
 
 .content-2-container {
