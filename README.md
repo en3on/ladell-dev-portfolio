@@ -202,3 +202,4 @@ When a user opens their web browser (a software application designed to access i
 **Reflect on one aspect of the development of internet technologies and how it has contributed to the world today**
 
 The Domain Name System introduced the .com, .org, .net and many other domains in 1983. Before the DNS was around, web servers could only be accessed on the network using their relevant Internet Protocol address. Following the implementation of DNS, people were now able to register their web server's IP address under a domain name of their choosing. This allowed users wanting to connect to their site the ability to enter a more human-readable address to connect to that was relevant to the site. These days, almost all web services are assigned a domain name for users to connect to. This has greatly increased the ability to share websites and for marketing of websites to become exponentially more efficient.
+
